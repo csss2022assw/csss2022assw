@@ -1,0 +1,92 @@
+
+html {text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  min-width:700px;
+ }
+ img{margin: 0 0 0 0; padding: 0 0 0 0;}
+
+
+ html {  -webkit-animation: fadein 2s;     -moz-animation: fadein 2s;       -ms-animation: fadein 2s;        -o-animation: fadein 2s;           animation: fadein 2s;}
+ @keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
+ @-moz-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
+ @-webkit-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
+ @-ms-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
+ @-o-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
+
+.container { margin: 0 auto; max-width: 800px;}
+.wide-container { margin: 0 auto; max-width: 1000px;}
+.link-container { margin: 0 auto; max-width: 400px;}
+
+header{margin-top:0px; margin-bottom:30px;
+  box-shadow: 0px 0px 30px 0px #CCCCCC;}
+
+.logo{margin-right:5%;max-height:80px; margin-top:-15px;margin-bottom:-20px;}
+
+  footer {
+    width: 200px;	height: 102px;
+    position: absolute;
+  background-image:url("footer.gif"); background-repeat: repeat-x;
+    bottom: 0;  left: 0;   right: 0;
+      
+    margin: auto;
+  }
+
+/*---------------------------------------------------------------------------*/
+
+
+
+
+ h1,h2,button{font-family: 'Quicksand', sans-serif; font-weight:700;padding:5px;}
+
+
+ a{color:#0D3692;}
+ a:hover{text-decoration: underline;}
+
+.light{color:white}
+.dark{color:#271C37}
+.color,button:hover,h2{color:#0C6725}
+.small{color:#BEBCBD}
+
+
+.bkglight{background-color:white}
+.bkgdark{background-color:#271C37}
+.bkgcolor{background-color:#0C6725}
+
+.brdlight{border-color:white}
+.brddark{border-color:#271C37}
+.brdcolor{border-color:#0C6725}
+
+h1{  font-size: 32px;}
+h2{  font-size: 24px;}
+button{  font-size: 18px;}
+p{  font-size: 16px;text-align: left;}
+
+.fill { width:100%;}
+
+
+button  {
+  border: 2px solid;border-radius: 10px;
+  padding: 12px 24px; text-decoration: none;
+  margin:7px;
+  margin-top:10px; margin-bottom:15px;
+  transition-duration: 0.4s; cursor: pointer;
+}
+
+.small  {
+  padding: 6px 12px; text-decoration: none;
+  margin:7px;
+  margin-top:0px; margin-bottom:15px;
+  transition-duration: 0.4s; cursor: pointer;
+}
+
+
+  
+  button:hover {
+    background-color: rgba(0,0,0,0);
+  }
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
