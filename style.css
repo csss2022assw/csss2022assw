@@ -6,7 +6,7 @@ html {text-align: center;
  img{margin: 0 0 0 0; padding: 0 0 0 0;}
 
 
- html {  -webkit-animation: fadein 2s;     -moz-animation: fadein 2s;       -ms-animation: fadein 2s;        -o-animation: fadein 2s;           animation: fadein 2s;}
+.fade {  -webkit-animation: fadein 2s;     -moz-animation: fadein 2s;       -ms-animation: fadein 2s;        -o-animation: fadein 2s;           animation: fadein 2s;}
  @keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
  @-moz-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
  @-webkit-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
@@ -20,12 +20,17 @@ html {text-align: center;
 header,.feature{margin-top:0px; margin-bottom:30px;
   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.08);}
 
+header{z-index:10;background-color: white; border-bottom:1px solid #138a33; position:fixed; width:100%;top:-5px}
+
+.mini-nav{margin-top:20px;}
+
+
 .logo{margin-right:5%;max-height:80px; margin-top:-15px;margin-bottom:-20px;}
 
   footer {
     width: 200px;	height: 102px;
     position: absolute;
-  background-image:url("footer.gif"); background-repeat: repeat-x;
+  background-image:url("img/footer.gif"); background-repeat: repeat-x;
    left: 0;   right: 0;
       
     margin: auto;
@@ -51,8 +56,8 @@ span{font-weight:900}
 
 .light{color:white}
 .dark{color:#271C37}
-.color,button:hover,h2,span{color:#0C6725}
-.small{color:#BEBCBD}
+.color,h2,span{color:#138a33}
+
 
 
 .bkglight,.feature{background-color:white}
@@ -61,7 +66,7 @@ span{font-weight:900}
 
 .brdlight{border-color:white}
 .brddark{border-color:#271C37}
-.brdcolor{border-color:#0C6725}
+.brdcolor{border-color:#138a33}
 
 h1{  font-size: 32px;margin-bottom:10px; margin-top:40px;}
 h2{  font-size: 24px;margin-bottom:10px}
@@ -73,27 +78,31 @@ p{  font-size: 14pt;text-align: justify; line-height:20pt;margin-bottom:10px}
 
 
 button  {
-  border: 2px solid;border-radius:5px 40px 5px  40px ;
-  padding: 8px 30px; text-decoration: none;
-  margin:0px;
+  border: 0px solid;border-radius:5px 30px 5px  30px ;background-color: rgba(0,0,0,0);
+  padding: 6px 20px; text-decoration: none;
+  margin:-5px;
   margin-top:10px; margin-bottom:15px;
   transition-duration: 0.4s; cursor: pointer;
-
 }
+
+button:hover{background-color: #138a33;color:white}
+
 
 .small  {
-border-radius: 40px 5px  40px 5px ;
+border-radius: 0px;
   padding: 5px 20px; text-decoration: none;
-  margin-top:0px; margin-bottom:15px;
+  margin-top:0px; margin-bottom:0px;
   transition-duration: 0.4s; cursor: pointer;
+  color: white
 
 }
 
-
+.small:hover{background-color: rgba(0,0,0,0);
+  text-decoration: underline;
+  color:white
+}
   
-  button:hover {
-    background-color: rgba(0,0,0,0);
-  }
+
 
 .flex {
   display: flex;
