@@ -6,7 +6,8 @@ html {text-align: center;
  img{margin: 0 0 0 0; padding: 0 0 0 0;}
 
 
-.fade {  -webkit-animation: fadein 2s;     -moz-animation: fadein 2s;       -ms-animation: fadein 2s;        -o-animation: fadein 2s;           animation: fadein 2s;}
+
+.fade {  -webkit-animation: fadein 1s;     -moz-animation: fadein 1s;       -ms-animation: fadein 1s;        -o-animation: fadein 1s;           animation: fadein 1s;}
  @keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
  @-moz-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
  @-webkit-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
@@ -14,11 +15,16 @@ html {text-align: center;
  @-o-keyframes fadein {  from { opacity: 0; }  to   { opacity: 1; }}
 
 .container { margin: 0 auto; max-width: 800px;}
-.wide-container { margin: 0 auto; max-width: 1000px;}
+.wide-container { margin: 0 auto; max-width: 1200px;}
 .link-container { margin: 0 auto; max-width: 400px;}
 
+.overlay{margin-left:-500px;}
+
+table{
+  width:100%;}
+
 header,.feature{margin-top:0px; margin-bottom:30px;
-  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.08);}
+  box-shadow: 0px 0px 30px 0px #949494;}
 
 header{z-index:10;background-color: white; border-bottom:1px solid #138a33; position:fixed; width:100%;top:-5px}
 
@@ -40,7 +46,7 @@ header{z-index:10;background-color: white; border-bottom:1px solid #138a33; posi
   float: right;
   margin: 10px;}
 
-  .feature{  border: 1px solid #5d5b5f;border-radius: 15px 5px  15px 5px;margin:30px;
+  .feature{  border:0px solid #5d5b5f;border-radius: 15px 5px  15px 5px;margin:30px;
   padding:30px}
 /*---------------------------------------------------------------------------*/
 
@@ -87,6 +93,7 @@ button  {
 
 button:hover{background-color: #271C37;color:white}
 
+.click{ border: 2px solid}
 
 .small  {
 border-radius: 0px;
