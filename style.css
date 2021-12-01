@@ -2,6 +2,7 @@
 html {text-align: center;
   font-family: 'Open Sans', sans-serif;
   min-width:700px;
+  scroll-behavior: smooth;
  }
  img{margin: 0 0 0 0; padding: 0 0 0 0;}
 
