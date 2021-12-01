@@ -68,7 +68,7 @@ span{font-weight:900}
 
 .bkglight,.feature{background-color:white}
 .bkgdark{background-color:#271C37}
-.bkgcolor{background-color:#0C6725}
+.bkgcolor{background-color:#138a33}
 
 .brdlight{border-color:white}
 .brddark{border-color:#271C37}
@@ -109,8 +109,10 @@ border-radius: 0px;
   color:white
 }
   
-
-
+.session{font-size: 12pt;text-align: justify; line-height:15pt;
+}
+.name{margin-left: 50px;color:#271C37}
+;
 .flex {
   display: flex;
   flex-wrap: nowrap;
