@@ -27,6 +27,7 @@ table{
 header,.feature{margin-top:0px; margin-bottom:30px;
   box-shadow: 0px 0px 30px 0px #949494;}
 
+  b{font-size: 11pt  }
 header{z-index:10;background-color: white; border-bottom:1px solid #138a33; position:fixed; width:100%;top:-5px}
 
 .mini-nav{margin-top:20px;}
