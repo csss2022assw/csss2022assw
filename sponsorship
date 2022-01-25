@@ -1,0 +1,53 @@
+
+<!-- START OF TEMPLATE -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSSS2022-ASSW | Sponsorship Information</title>
+  <link  href="reset.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+    </style>
+  <script src="https://kit.fontawesome.com/689bef66cf.js" crossorigin="anonymous"></script>
+  <link  href="style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+<header>
+<div class="wide-container"><img class="logo" src="img/nav-logo.png">
+  <a href="welcome.html"><button class="color" >WELCOME</button></a>
+  <a href="program.html"><button class="color" >PROGRAM</button></a>
+  <a href="events.html"><button class="color" >EVENTS</button></a>
+  <a href="about.html"><button class="color" >ABOUT</button></a>
+  <a href="abstracts.html"><button class="color" >ABSTRACTS</button></a>
+  <a href="register.html"><button class="color" >REGISTER</button></a>
+</div>
+</header>
+
+<div class="overlay">
+</div><div style="margin-top:150px"></div>
+
+<!-- DO NOT EDIT ABOVE THIS LINE --><div class="fade">
+
+<div class="wide-container">
+ 
+<h1>Registration</h1> 
+  <h2>CSSS-ASSW 2022 Registration: Registration will open from March 1, 2022</h2>
+</div>
+
+
+
+<!-- DO NOT EDIT  BELOW THIS LINE --></div>  <div style="padding-top:125px"></div><!------------------------------------------------------------------->
+<footer class="fill">
+  <div><p class="dark" style="padding-top:15px;  text-align:center;text-indent: 0px;">&copy; 2021-2022 Canadian Society of Soil Science, Alberta Soil Science Workshop</a></div>
+</footer>
+</div>
+</body>
+</html>
